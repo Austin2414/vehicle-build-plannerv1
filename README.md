@@ -1,6 +1,6 @@
 # Vehicle Build Planner
 
-A simple interactive vehicle build planner that validates part compatibility based on a selected turbo setup.
+A simple interactive vehicle build planner that validates part compatibility based on the users selection.
 
 ## Project Overview
 
