@@ -14,12 +14,12 @@ This project was built to practice end-to-end full stack fundamentals, from requ
 
 ## Tech Stack
 
-Frontend
+-**Frontend**
 - HTML
 - CSS
 - JavaScript (vanilla)
 
-Backend
+-**Backend**
 - Node.js
 - Express
 
@@ -37,35 +37,35 @@ Backend
 Backend
 1. Clone the repository:
 
-git clone <repository-url>
+    git clone git@github.com:Austin2414/vehicle-build-plannerv1.git
 
 
 2. Navigate into the backend folder:
 
-cd vehicle-build-plannerv1/backend
+    cd vehicle-build-plannerv1/backend
 
 
 3. Install dependencies:
 
-npm install
+    npm install
 
 
 4. Start the server:
 
-npm start
+    npm start
 
-The backend will run on http://localhost:3000.
+    The backend will run on http://localhost:3000.
 
 Frontend
 
 1. Navigate to the frontend folder:
 
-cd vehicle-build-plannerv1/frontend
+    cd vehicle-build-plannerv1/frontend
 
 
 2. Open index.html in your browser.
 
-No build step or framework is required.
+    No build step or framework is required.
 
 ## What I Learned
 - How to design and implement a simple REST API
@@ -77,7 +77,7 @@ No build step or framework is required.
 - How to manage UI state and severity without overcomplicating the frontend
 - How to keep frontend and backend responsibilities cleanly separated
 
-- This project helped solidify how data flows through a full stack application from user input to backend logic and back to the UI.
+This project helped solidify how data flows through a full stack application from user input to backend logic and back to the UI.
 
 ## Future Improvements
 - Add more validation rules (fuel type, drivetrain limits, airflow math)
