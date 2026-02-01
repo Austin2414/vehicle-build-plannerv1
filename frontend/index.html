@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vehicle Build Planner</title>
+</head>
+<body>
+    <h1>Vehicle Build Planner</h1>
+    <div class="app">
+        <div class="selection">
+            <label for="intakeId">Intake</label>
+            <select id="intakeId">
+                <option value="">--Please select an intake--</option>
+                <option value="oem">OEM Intake</option>
+                <option value="3inch">3" Intake</option>
+                <option value="4inch">4" Intake</option>
+            </select>
+            <label for="exhaustId">Exhaust</label>
+            <select id="exhaustId">
+                <option value="">--Please select an exhaust--</option>
+                <option value="oem">OEM Exhaust</option>
+                <option value="2.5inch">2.5" Exhaust</option>
+                <option value="3inch">3" Exhaust</option>
+                <option value="3.5inch">3.5" Exhaust</option>
+            </select>
+            <label for="turboId">Turbocharger</label>
+            <select id="turboId">
+                <option value="">--Please select a turbocharger--</option>
+                <option value="t25">T25 (OEM)</option>
+                <option value="evo3-16g">Evo III 16G</option>
+                <option value="20g">TD05H 20G</option>
+                <option value="fp68hta">FP 68HTA</option>
+                <option value="hx35">Holset HX35</option>
+            </select>
+            <label for="injectorsId">Injectors</label>
+            <select id="injectorsId">
+                <option value="">--Please select injector size--</option>
+                <option value="450">OEM (450cc)</option>
+                <option value="550">550cc</option>
+                <option value="650">650cc</option>
+                <option value="750">750cc</option>
+                <option value="850">850cc</option>
+                <option value="950">950cc</option>
+                <option value="1050">1050cc</option>
+                <option value="1150">1150cc</option>
+                <option value="1250">1250cc</option>
+                <option value="1350">1350cc</option>
+            </select>
+            <label for="fuelPumpId">Fuel Pump</label>
+            <select id="fuelPumpId">
+                <option value="">--Please select a fuel pump--</option>
+                <option value="oem">OEM</option>
+                <option value="evo8/9">Evo 8/9</option>
+                <option value="walbro255">Walbro 255</option>
+                <option value="walbro340">Walbro 340</option>
+                <option value="walbro450">Walbro 450</option>
+            </select> 
+            </div>
+        </div>
+
+        <div id="message" class="message"></div>
+
+        <div>
+            <button class="validate">Validate Build</button>
+        </div>
+        
+        <div id="results" class="results"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

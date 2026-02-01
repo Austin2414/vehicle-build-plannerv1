@@ -1,0 +1,87 @@
+body {
+    background-color: #121212;
+    color: #F0F0F0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    justify-self: center;
+}
+
+p {
+    margin: 8px 0;
+    line-height: 1.4;
+}
+
+.app {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #1B1B1B;
+    border-radius: 8px;
+}
+
+.selection {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.selection label {
+    font-size: 14px;
+    color: #A0A0A0;
+}
+
+.selection select {
+    background-color: #222;
+    color: #F0F0F0;
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: #B39DDB;
+    font-size: 18px;
+}
+
+.validate {
+    display: flex;
+    justify-self: center;
+    font-size: 18px;
+    padding: 12px 20px;
+    background-color: #004D61;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.validate:hover {
+    background-color: #006B87;
+}
+
+.validate:active {
+    transform: scale(0.98);
+}
+
+.results {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: #181818;
+}
+
+.results[data-severity = 'error'] {
+    border-left: 4px solid #E53935;
+}
+.results[data-severity = 'warning'] {
+    border-left: 4px solid #FB8C00;
+}.results[data-severity = 'ok'] {
+    border-left: 4px solid #43A047;
+}
